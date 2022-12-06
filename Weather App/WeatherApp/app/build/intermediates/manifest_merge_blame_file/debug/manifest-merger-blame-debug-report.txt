@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.company.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <application
+15-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:9:5-40:19
+16        android:allowBackup="true"
+16-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:11:9-65
+19        android:debuggable="true"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:12:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:16:9-35
+25        android:theme="@style/Theme.WeatherApp" >
+25-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:17:9-48
+26        <activity
+26-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:19:9-26:20
+27            android:name="com.company.weatherapp.WeatherActivity"
+27-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:20:13-44
+28            android:exported="false"
+28-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:21:13-37
+29            android:parentActivityName="com.company.weatherapp.MainActivity" >
+29-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:22:13-55
+30            <meta-data
+30-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:23:13-25:36
+31                android:name="android.app.lib_name"
+31-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:24:17-52
+32                android:value="" />
+32-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:25:17-33
+33        </activity>
+34        <activity
+34-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:27:9-39:20
+35            android:name="com.company.weatherapp.MainActivity"
+35-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:28:13-41
+36            android:exported="true" >
+36-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:29:13-36
+37            <intent-filter>
+37-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:30:13-34:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:31:17-69
+38-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:31:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:33:17-77
+40-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:33:27-74
+41            </intent-filter>
+42
+43            <meta-data
+43-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:23:13-25:36
+44                android:name="android.app.lib_name"
+44-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:24:17-52
+45                android:value="" />
+45-->C:\Users\Kushagra Ahire\AndroidStudioProjects\WeatherApp\app\src\main\AndroidManifest.xml:25:17-33
+46        </activity>
+47
+48        <provider
+48-->[com.squareup.picasso:picasso:2.8] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+49            android:name="com.squareup.picasso.PicassoProvider"
+49-->[com.squareup.picasso:picasso:2.8] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+50            android:authorities="com.company.weatherapp.com.squareup.picasso"
+50-->[com.squareup.picasso:picasso:2.8] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+51            android:exported="false" />
+51-->[com.squareup.picasso:picasso:2.8] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\09a4e08e6af500b8e31394df32082627\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.company.weatherapp.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Kushagra Ahire\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>
