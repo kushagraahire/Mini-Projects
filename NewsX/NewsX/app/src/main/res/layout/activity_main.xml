@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGeneral"
+                android:text="general"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEntertainment"
+                android:text="entertainment"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBusiness"
+                android:text="business"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnHealth"
+                android:text="health"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnScience"
+                android:text="science"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSports"
+                android:text="sports"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTechnology"
+                android:text="technology"
+                android:textSize="12sp"
+                android:layout_margin="6dp"
+                android:padding="6dp"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="8dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="10dp">
+        
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/custom_button"
+            android:id="@+id/svNews"
+            app:defaultQueryHint="Search News"
+            app:iconifiedByDefault="false"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerMain"
+        android:layout_margin="8dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    
+</LinearLayout>
